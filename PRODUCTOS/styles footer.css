@@ -1,0 +1,42 @@
+.footer{
+    
+    color: white;
+     background-color: #222222;
+     min-height: 100px;
+     padding: 20px 0;
+     position: relative;
+     bottom: 0;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+ 
+     
+     
+ 
+ 
+     
+ }
+ .row{
+ 
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 80px;
+ 
+ }
+ .col{
+     text-align: center;
+ 
+ 
+ }
+ .texto{
+ list-style: none;
+ padding: 0;
+ }
+ .texto li{
+     margin-bottom: 10px;
+ }
+ .aa{
+     text-decoration: none;
+     color: white;
+ }
