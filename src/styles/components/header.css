@@ -1,6 +1,5 @@
 header{
-  
-    display: flex; /*felxible*/
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -8,16 +7,11 @@ header{
     box-sizing: border-box;
     background-color: #000;
     color: white;
-    
-    
-  
-    
 } 
-h1 a {
+h2 a {
     text-decoration: none;  
     color: white;
 }
-
 
 .header-left{
     display: flex;
@@ -25,13 +19,15 @@ h1 a {
     justify-content: flex-start;
 }
 .header-left .logo img{
-height: 140px;
+height: 40px;
 margin-right: 15px;
 }
 .header-left h1{
     font-size: 140px;
     color: #333;
+    
 }
+
 
 .search-container {
     display: flex;
@@ -42,7 +38,8 @@ margin-right: 15px;
     display: flex;
     align-items: center;
     position: relative;
-    width: 80%;
+    width: 30%;
+  
 }
 .container_busqueda input{
     width: 100%;
@@ -53,7 +50,7 @@ margin-right: 15px;
     padding: 0 60px 0 20px;
     font-size: 20px;
     background-color: #222222;
-  
+   
     
    
 }
@@ -64,6 +61,7 @@ margin-right: 15px;
     font-size: 20px;
     cursor: pointer;
     background-color: #222222;
+    
 }
 
 .marcar-container {
@@ -76,24 +74,16 @@ margin-right: 15px;
 .logo{
     display: flex;
 }
-.logo img{
-    height: 140px;
-     
- }
-
-
-
-
 
 .marcador{
     list-style: none;
     margin: 0;
-padding: 0;
-display: flex;
-flex-wrap: wrap;
-gap: 10px;
-justify-content: center;
-width: 100%;
+    padding: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
   
 }
 .marcador li{
@@ -117,7 +107,7 @@ min-width: 150px;
 
 }
 .marcador li:hover{
-    background-color:#000000 ;
+    background-color:#000046 ;
     transform: translateY(-5px);
 }
 

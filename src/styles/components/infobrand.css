@@ -1,21 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 110vh; /*tamaño completo*/
-    background-color: black;
-}
-
-main {
-    flex: 1; 
-}
-
-.nosotros {
- 
+.marca {
     color: white;
     padding: 40px 20px;
     text-align: left;  /* El texto estará alineado a la izquierda */
@@ -26,17 +9,7 @@ main {
     box-sizing: border-box; /* Asegura que los padding no afecten el tamaño */
     overflow: hidden; /* Evita que el contenido se salga del div */
 }
-
-
-.contenido {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 600px; /* Ajustamos el ancho para que no ocupe toda la pantalla */
-}
-
-
-.nosotros h1 {
+.marca h1 {
     font-size: 3rem;
     margin-bottom: 10px;
     font-weight: bold;
@@ -52,7 +25,7 @@ main {
     align-items: center; /*todo centrado*/
 }
 
-.logo {
+.logo-brand {
     max-width: 200px; /* Limita el tamaño del logo */
     height: auto;
 }
@@ -71,6 +44,11 @@ main {
 }
 
 
+.video-container iframe {
+    width: 100%;
+    height: 315px; /*altura*/
+    border: none;   /*sin borde*/
+}
 
 /* Estilo para la imagen */
 .image-container img {
@@ -81,8 +59,16 @@ main {
 }
 
 
-#somos {
+#acer {
     background-color: #2D6A4F; /*fondo*/ 
 }
 
-
+#Apple{
+    background-color: #86868B;/*fondo*/ 
+}
+#Asus{
+    background-color:#010066;  /*fondo*/ 
+}
+#Lenovo{
+    background-color: #881318;
+}/*fondo*/ 

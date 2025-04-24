@@ -14,7 +14,7 @@ main {
     flex: 1; 
 }
 
-.marca {
+.nosotros {
  
     color: white;
     padding: 40px 20px;
@@ -36,7 +36,7 @@ main {
 }
 
 
-.marca h1 {
+.nosotros h1 {
     font-size: 3rem;
     margin-bottom: 10px;
     font-weight: bold;
@@ -71,11 +71,6 @@ main {
 }
 
 
-.video-container iframe {
-    width: 100%;
-    height: 315px; /*altura*/
-    border: none;   /*sin borde*/
-}
 
 /* Estilo para la imagen */
 .image-container img {
@@ -86,17 +81,7 @@ main {
 }
 
 
-#acer {
+#somos {
     background-color: #2D6A4F; /*fondo*/ 
 }
-
-#Apple{
-    background-color: #86868B;/*fondo*/ 
-}
-#Asus{
-    background-color:#010066;  /*fondo*/ 
-}
-#Lenovo{
-    background-color: #881318;
-}/*fondo*/ 
 

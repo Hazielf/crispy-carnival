@@ -1,5 +1,4 @@
 .footer{
-    
     color: white;
      background-color: #222222;
      min-height: 100px;
@@ -9,25 +8,16 @@
      width: 100%;
      display: flex;
      justify-content: center;
- 
-     
-     
- 
- 
-     
+     margin-top: 35px;
  }
  .row{
- 
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
      gap: 80px;
- 
  }
  .col{
-     text-align: center;
- 
- 
+     text-align: left;
  }
  .texto{
  list-style: none;
@@ -35,8 +25,20 @@
  }
  .texto li{
      margin-bottom: 10px;
+
  }
- .aa{
+ .texto i{
+     margin-right: 4px;
+     color:#0071C5;
+ }
+ .linkfooter{
      text-decoration: none;
-     color: white;
+     color: #aaaaaa;
  }
+ .linkfooter:hover {
+    color: #0071C5; 
+}
+ .footerinfo{
+    text-decoration: none;
+    color: #aaaaaa;
+}
