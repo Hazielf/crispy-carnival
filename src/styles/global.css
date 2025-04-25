@@ -2,15 +2,15 @@
 @import url('./components/footer.css');
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 
-*{
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+
 }
 
 body {
-    background-color: #000; /* Fondo negro para todo el cuerpo */
+    background-color: #000;
     color: white;
     font-family: "Geist", sans-serif;
 }

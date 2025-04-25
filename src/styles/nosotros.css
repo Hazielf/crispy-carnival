@@ -1,87 +1,104 @@
-*{
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+
 body {
     display: flex;
     flex-direction: column;
-    min-height: 110vh; /*tamaño completo*/
+    min-height: 110vh;
+    /*tamaño completo*/
     background-color: black;
 }
 
 main {
-    flex: 1; 
+    flex: 1;
 }
 
 .nosotros {
- 
-    color: white;
-    padding: 40px 20px;
-    text-align: left;  /* El texto estará alineado a la izquierda */
-    min-height: 100vh;  /* Altura completa de la pantalla */
+    /* Alinea el contenido en la parte superior */
+    box-sizing: border-box;
+    /* Altura completa de la pantalla */
     display: flex;
-    justify-content: space-between; /* Divide la sección en 2 columnas para el titulo y video  */
-    align-items: flex-start; /* Alinea el contenido en la parte superior */
-    box-sizing: border-box; /* Asegura que los padding no afecten el tamaño */
-    overflow: hidden; /* Evita que el contenido se salga del div */
+    /* Divide la sección en 2 columnas para el titulo y video  */
+    align-items: flex-start;
+    justify-content: space-between;
+    /* El texto estará alineado a la izquierda */
+    min-height: 100vh;
+    padding: 40px 20px;
+    /* Asegura que los padding no afecten el tamaño */
+    overflow: hidden;
+
+    color: white;
+    text-align: left;
+    /* Evita que el contenido se salga del div */
 }
 
 
 .contenido {
     display: flex;
     flex-direction: column;
+    max-width: 600px;
     gap: 20px;
-    max-width: 600px; /* Ajustamos el ancho para que no ocupe toda la pantalla */
+    /* Ajustamos el ancho para que no ocupe toda la pantalla */
 }
 
 
 .nosotros h1 {
-    font-size: 3rem;
     margin-bottom: 10px;
+    color: white;
     font-weight: bold;
-    text-transform: uppercase;
+    font-size: 3rem;
     letter-spacing: 2px;
-    color: white; /* Título en blanco */
+    text-transform: uppercase;
+    /* Título en blanco */
 }
 
 
 .logo-container {
     display: flex;
-    justify-content: flex-start;  
-    align-items: center; /*todo centrado*/
+    align-items: center;
+    justify-content: flex-start;
+    /*todo centrado*/
 }
 
 .logo {
-    max-width: 200px; /* Limita el tamaño del logo */
+    max-width: 200px;
+    /* Limita el tamaño del logo */
     height: auto;
 }
 
 .informacion-container {
+    max-width: 600px;
     font-size: 1.1rem;
     line-height: 1.6;
-    max-width: 600px; /* Limite de      el ancho del texto */
+    /* Limite de      el ancho del texto */
 }
 
 .marca-contenido {
     display: flex;
     flex-direction: column;
-    gap: 20px;  /* Espacio entre video y la imagen */
-    width: 45%;  /* Limita el ancho del lado derecho */
+    /* Espacio entre video y la imagen */
+    width: 45%;
+    gap: 20px;
+    /* Limita el ancho del lado derecho */
 }
 
 
 
 /* Estilo para la imagen */
-.image-container img {
+img {
     width: 100%;
-    height: auto; /*altura*/
-    border-radius: 10px;  /* Bordes redondeados */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+    height: auto;
+    /*altura*/
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 
 #somos {
-    background-color: #2D6A4F; /*fondo*/ 
+    background-color: #2D6A4F;
+    /*fondo*/
 }
-
