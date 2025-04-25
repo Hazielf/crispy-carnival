@@ -55,6 +55,11 @@ main {
     /* Título en blanco */
 }
 
+.nosotros h1,
+h2 {
+    text-align: center;
+}
+
 
 .logo-container {
     display: flex;
@@ -64,13 +69,16 @@ main {
 }
 
 .logo {
+    display: block;
     max-width: 200px;
     /* Limita el tamaño del logo */
     height: auto;
+    margin: 0 auto;
 }
 
 .informacion-container {
     max-width: 600px;
+    margin-right: 2rem;
     font-size: 1.1rem;
     line-height: 1.6;
     /* Limite de      el ancho del texto */
@@ -101,4 +109,8 @@ img {
 #somos {
     background-color: #2D6A4F;
     /*fondo*/
+}
+
+p {
+    text-align: justify;
 }
